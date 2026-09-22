@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -33,10 +34,25 @@ assetsSummary:
   - Units
   - ProcessingModule
   - ElectrodeGroup
-citation: Taniguchi, Masachika (2025) Neural activity in rat nucleus accumbens and
-  ventral pallidum during probabilistic free-choice decision-making (Ito & Doya 2009)
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001641/draft
+citation: Doya, Kenji; Taniguchi, Masachika (2026) Neural activity in rat nucleus
+  accumbens and ventral pallidum during probabilistic free-choice decision-making
+  (Ito & Doya 2009) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001641/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/02qg15b79
+    name: Okinawa Institute of Science and Technology Graduate University
+    schemaKey: Affiliation
+  email: doya@oist.jp
+  identifier: 0000-0002-2446-6820
+  includeInCitation: true
+  name: Doya, Kenji
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:ProjectLeader
+  schemaKey: Person
+  url: https://www.oist.jp/ncu
 - affiliation: []
   email: mtanigu-vendor@oist.jp
   includeInCitation: true
@@ -61,16 +77,22 @@ description: 'This Dandiset contains NWB files with behavioral and extracellular
   in ventral basal ganglia. This dataset is suitable for re-analysis of decision-making
   strategies, model-based neural coding, and computational studies of cortico-basal
   ganglia circuits.'
+ethicsApproval: []
 id: DANDI:001641/draft
 identifier: DANDI:001641
+keywords:
+- decision making
+- reinforcement learning
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001641/versions/draft/assets/
 name: Neural activity in rat nucleus accumbens and ventral pallidum during probabilistic
   free-choice decision-making (Ito & Doya 2009)
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001641/draft
 version: draft
+wasGeneratedBy: []
