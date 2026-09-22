@@ -36,7 +36,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Doya, Kenji; Taniguchi, Masachika (2026) Neural activity in rat nucleus
   accumbens and ventral pallidum during probabilistic free-choice decision-making
-  (Ito & Doya 2009) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001641/draft
+  (Ito & Doya 2009) (Version 0.260922.0719) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001641/0.260922.0719
 contributor:
 - affiliation:
   - identifier: https://ror.org/02qg15b79
@@ -61,6 +61,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-11-23T16:37:11.331287+00:00'
+datePublished: '2026-09-22T07:19:25.395495+00:00'
 description: 'This Dandiset contains NWB files with behavioral and extracellular electrophysiological
   recordings from six male Long-Evans rats performing a conditional free-choice task
   with probabilistic rewards. In the task, rats maintained a center nose-poke during
@@ -77,8 +78,9 @@ description: 'This Dandiset contains NWB files with behavioral and extracellular
   in ventral basal ganglia. This dataset is suitable for re-analysis of decision-making
   strategies, model-based neural coding, and computational studies of cortico-basal
   ganglia circuits.'
+doi: 10.48324/dandi.001641/0.260922.0719
 ethicsApproval: []
-id: DANDI:001641/draft
+id: DANDI:001641/0.260922.0719
 identifier: DANDI:001641
 keywords:
 - decision making
@@ -86,13 +88,25 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001641/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001641/0.260922.0719/assets.yaml
 name: Neural activity in rat nucleus accumbens and ventral pallidum during probabilistic
   free-choice decision-making (Ito & Doya 2009)
+publishedBy:
+  endDate: '2026-09-22T07:19:25.395495+00:00'
+  id: urn:uuid:914225d2-1d6e-46c1-a7ee-95c5fd146507
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-22T07:19:25.395495+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:37991486-c255-47e9-8fb2-a9d5aaa3ebd0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001641/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001641/0.260922.0719
+version: 0.260922.0719
 wasGeneratedBy: []
